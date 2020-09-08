@@ -1,1 +1,8 @@
-console.log('from index.js file')
+const BUY_CAKE = "BUY_CAKE"
+
+function buyCake () {
+  return {
+    type: BUY_CAKE,
+    payload: 'First redux action'
+  }
+}
